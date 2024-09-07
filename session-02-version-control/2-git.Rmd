@@ -53,7 +53,7 @@ background-color: #2f1a61;
 ```
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, engine.path = list(bash = "C:/Program Files/Git/git-bash.exe"))
 
 ```
 
