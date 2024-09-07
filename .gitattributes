@@ -1,1 +1,11 @@
 session-01-intro/*.html linguist-documentation
+session-02-version-control/*.html linguist-documentation
+session-03-tidyverse/*.html linguist-documentation
+session-04-functions/*.html linguist-documentation
+session-05-databases/*.html linguist-documentation
+session-06-webdata/*.html linguist-documentation
+session-07-web-scraping/*.html linguist-documentation
+session-08-modelling/*.html linguist-documentation
+session-09-visualization/*.html linguist-documentation
+session-10-packaging/*.html linguist-documentation
+session-11-shiny/*.html linguist-documentation
