@@ -163,6 +163,17 @@ Once we have our scatter plot, adapt the code to:
 If you want to know more about the `par`, `mar`, `mgp`, and `las` functions in R, see [here](https://www.geeksforgeeks.org/how-to-use-par-function-in-r/), [here](https://r-charts.com/base-r/margins/), [here](https://www.programmingr.com/content/controlling-margins-and-axes-oma-and-mgp/), and [here](apparentlyhttps://r-charts.com/base-r/margins/).
 
 ```{r, figures-side, fig.show="hold", out.width="50%", warning=F, echo=F}
+# ChatGPT explanation:
+# mar for margins 
+# mar = c(bottom, left, top, right)
+# 4: Bottom margin, set to 4 lines.
+# 4: Left margin, set to 4 lines.
+# 0.1: Top margin, set to 0.1 lines (very small).
+# 0.1: Right margin, set to 0.1 lines (very small)
+
+# you can also use par(mfrow = c(no. rows, no. columns))
+# par(mfrow = c(2, 2))  # Creates a 2x2 grid (4 plots total)
+
 par(mar = c(4, 4, .1, .1)) # to let the figures sit side by side
 
 # basic plot
